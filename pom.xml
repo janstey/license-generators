@@ -50,7 +50,7 @@
 							<licensesConfigFile>${project.basedir}/src/license/licenses.xml</licensesConfigFile>
 							<listDependencies>true</listDependencies>
 							<generateLicensesXml>true</generateLicensesXml>
-							<noticeSupplements>shared/notice-supplements.xml</noticeSupplements>
+							<noticeSupplements>${project.basedir}/src/main/resources/notice-supplements.xml</noticeSupplements>
 							<repositories>${project.basedir}/jboss-fis-2.0.0.redhat-8-maven-repository/maven-repository</repositories>					
 						</configuration>
 					</execution>
