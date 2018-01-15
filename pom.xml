@@ -26,7 +26,7 @@
     <name>JBoss FIS License Gen</name>
 
     <prerequisites>
-        <maven>3.0.2</maven>
+        <maven>3.5.0</maven>
     </prerequisites>
 
 
