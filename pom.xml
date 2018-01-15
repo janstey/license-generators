@@ -51,7 +51,7 @@
 							<listDependencies>true</listDependencies>
 							<generateLicensesXml>true</generateLicensesXml>
 							<noticeSupplements>${project.basedir}/src/main/resources/notice-supplements.xml</noticeSupplements>
-							<repositories>${project.basedir}/jboss-fis-2.0.0.redhat-8-maven-repository/maven-repository</repositories>					
+							<repositories>${project.basedir}/jboss-fis-2.0.2.redhat-2-maven-repository/maven-repository</repositories>					
 						</configuration>
 					</execution>
 				</executions>
