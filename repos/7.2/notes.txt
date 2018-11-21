@@ -1,0 +1,8 @@
+Setup Maven for a huge job...
+
+export MAVEN_OPTS="-Xmx12g -XX:MaxPermSize=512m -Dmaven.artifact.threads=8"
+
+Ran "mvn install" in the parent dir. But when it failed on a SAP artifact and also weird netty-tcnative platform specific dependency, I cd'd into target and ran (with a hacked up dependency-pom.xml):
+
+mvn clean install -f dependency-pom.xml -Dos.detected.classifier=linux-x86_64 | tee log.txt
+
